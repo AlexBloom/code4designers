@@ -12,6 +12,8 @@
 @import "./_media-queries";
 
 @import "./_base";
+@import "./_layout";
+@import "./_grid";
 @import "./_typography";
 
 @import "./_styles";
@@ -22,7 +24,6 @@
  If you want to debug your layout you can uncomment the following
  partial to apply an outline of a different color
  to every element on the page
-
 */
 
 /*  @import "./_debug"; */

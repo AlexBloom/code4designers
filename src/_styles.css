@@ -13,7 +13,56 @@
 /* Mobile-first classes here (No media query needed, these styles are global)
    ========================================================================== */
 
+  /*Backgrounds*/
+   .bg-cover{
+     background-size:cover;
+   }
+   .bg-contain{
+     background-size:contain;
+   }
+   .bg-center{
+     background-position:center;
+   }
+   .bg-repeat{
+     background-repeat:repeat;
+   }
+   .bg-repeat-x{
+     background-repeat:repeat-x;
+   }
+   .bg-repeat-y{
+     background-repeat:repeat-y;
+   }
+   .bg-no-repeat{
+     background-repeat:no-repeat;
+   }
 
+   /*Colors*/
+  .black{color:var(--black);}
+  .red{color:var(--red);}
+
+  /*Background Colors*/
+  .bg-black{ background-color:var(--black);}
+  .bg-red{ background-color:var(--red);}
+
+  /*Borders*/
+  .border       {
+    border:var(--border-width-default) solid;
+  }
+  .border-top   {
+    border-top:var(--border-width-default) solid;
+  }
+  .border-bottom{
+    border-bottom:var(--border-width-default) solid;
+  }
+  .border-left  {
+    border-left:var(--border-width-default) solid;
+  }
+  .border-right {
+    border-right:var(--border-width-default) solid;
+  }
+  .border-radius{
+    border-radius:var(--border-radius-default);
+  }
 
 
 /* Medium and Up - Targets everything larger than mobile
@@ -24,8 +73,6 @@
 }
 
 
-
-
 /* Medium - only targets 1st breakpoint. Styles
    ========================================================================== */
 
@@ -34,11 +81,8 @@
 }
 
 
-
-
 /* Large - only targets 2nd breakpoint.
    ========================================================================== */
-
 @media (--breakpoint-large) {
 
 }
