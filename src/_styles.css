@@ -64,6 +64,9 @@
     border-radius:var(--border-radius-default);
   }
 
+  .shadow{
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.2);
+  }
 
 /* Medium and Up - Targets everything larger than mobile
    ========================================================================== */
